@@ -6,58 +6,79 @@
     <title>Document</title>
     <style>
         div{
-            height:100px;
-            width: 70px;
+            height:60px;
+            width: 115px;
+            position: relative;
+            right: 38px;
         }
         #a1{
             background-color: green;
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
             margin-top: 50px;
-            width: 75px;
-            position: relative;
+            transition: 1.3s;
         }
         #a2{
             background-color: blue;
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
             margin-top: 10px;
-            position: relative;
+            transition: 1.3s;
         }
         #a3{
             background-color: red;
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
             margin-top: 10px;
-            position: relative;
+            transition: 1.3s;
         }
         #a4{
             background-color: #696767;
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
             margin-top: 10px;
-            position: relative;
             border-collapse: collapse;
+            transition: 1.3s;
         }
-        #a5{
-            border: 1px solid black;
-            width: 800px;
-            height: 600px;
+        #a1:hover{
+            position: relative;
+            left: 30px;
+        }
+        #a2:hover{
+            position: relative;
+            left: 30px;
+        }
+        #a3:hover{
+            position: relative;
+            left: 30px;
+        }
+        #a4:hover{
+            position: relative;
+            left: 30px;
         }
         .i1{
             position: relative;
-            left: 130px;
-            top: -450px;
-            width: auto;
+            left: 150px;
+            top: -290px;
+            width: max-content;
+        }
+        a{
+            text-align: left;
+            text-decoration: none;
+            position: relative;
+            top: 15px;
+            left: 10px;
+            color: white;
+            font-size: x-large;
         }
     </style>
 </head>
 <body>
-    <div id="a5">
-    <div id="a1"></div>
-    <div id="a2"></div>
-    <div id="a3"></div>
-    <div id="a4"></div>
+    <div>
+    <div id="a1"><a href="#">Home</a></div>
+    <div id="a2"><a href="#">Java</a></div>
+    <div id="a3"><a href="#">Html</a></div>
+    <div id="a4"><a href="#">CSS</a></div>
     <div class="i1">
         <h1>Hoverable Sidenav Buttons</h1>
         <p>Hover over the buttons in the left side navigation to open them.</p>
